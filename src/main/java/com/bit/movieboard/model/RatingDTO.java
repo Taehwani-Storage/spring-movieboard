@@ -4,9 +4,9 @@ import lombok.Data;
 
 @Data
 public class RatingDTO {
+    private int id;
+    private int userId;
     private int movieId;
-    private int imageId;
-    private String imageUrl;
-    private String title;
-    private String description;
+    private double rating;
+    private String comment;
 }
